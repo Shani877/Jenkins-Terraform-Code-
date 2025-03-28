@@ -13,7 +13,7 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update
 sudo apt-get install terraform
 
-#apply main.tf file
+#apply main.tf file for setting up jenkins server
 terraform init
 terraform plan
 terraform apply -auto-approve
